@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE vs IIFE</title>
+</head>
+
+<body>
+    <script>
+        //FE : 1.We can call one()/two() functions as many times as we want
+        //FE : 2.We need not to call one()/two() functions after immediate defining them
+        let one = function () {
+            console.log('Doing action1')
+        }
+        let two = function () {
+            console.log('Doing action2')
+        }
+        one()
+        one()
+        one()
+        two()
+        two()
+        two()
+    </script>
+</body>
+
+</html>
