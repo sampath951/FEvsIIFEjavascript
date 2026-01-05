@@ -1,4 +1,4 @@
-Difference between FE vs IIFE
+Difference between FE vs IIFE in Java script
 ---------------------------------------------------------------------------------
 Function Expression(FE) can call function many times as we want
 Function Expression(FE) need not to call function after immediate defining them
